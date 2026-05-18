@@ -4,9 +4,9 @@
 #SBATCH -e errors_%A_%a.txt
 
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=Benjamin.Dalziel@oregonstate.edu
+#SBATCH --mail-user=welchali@oregonstate.edu
 
-#SBATCH --partition=test.q
+#SBATCH --partition=dri.q
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=1
